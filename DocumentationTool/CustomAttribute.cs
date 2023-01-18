@@ -3,8 +3,6 @@
 
 namespace DocumentationTool
 {
-
-    public delegate void GetDocs();
     public class CustomAttributeAttribute : Attribute
     {
         public string Description { get; }
@@ -17,7 +15,13 @@ namespace DocumentationTool
            
         }
 
-        
+        public static void GetDocs(Type type)
+        {
+            AttributeMethods.GetClasses(type);
+            AttributeMethods.GetFields(type);
+            AttributeMethods.GetProperties(type);
+            AttributeMethods.GetMethods(type);
+        }
 
     }
 }

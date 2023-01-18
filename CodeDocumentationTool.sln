@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentationTool", "DocumentationTool\DocumentationTool.csproj", "{44680E0A-E6E0-44A1-9A6F-98761DC687C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCustomAttribute", "TestCustomAttribute\TestCustomAttribute.csproj", "{674714B1-442C-4682-9763-90E3FCBABF9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{44680E0A-E6E0-44A1-9A6F-98761DC687C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44680E0A-E6E0-44A1-9A6F-98761DC687C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44680E0A-E6E0-44A1-9A6F-98761DC687C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674714B1-442C-4682-9763-90E3FCBABF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674714B1-442C-4682-9763-90E3FCBABF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674714B1-442C-4682-9763-90E3FCBABF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674714B1-442C-4682-9763-90E3FCBABF9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
